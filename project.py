@@ -251,7 +251,7 @@ class MyApp(QtWidgets.QMainWindow):
  
         self.ax.clear() 
         self.ax.bar(["Sign Time", "Verify Time"], [sign_time, verify_time], color=['blue', 'green']) 
-        self.ax.set_title(f"Message Size: {message_size} bytes") 
+        self.ax.set_title("Performance of Lattice-Based Sign and Verify") 
         self.canvas.draw() 
  
         model = QtGui.QStandardItemModel() 
